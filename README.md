@@ -2,12 +2,12 @@
 
 A template for Kotlin applications. To get started, update the following:
 
-1. Replace occurrences of `project` with your `project-name` in the following files/folder
-   - The source code containing folder
-   - README.md
-   - settings.gradle.kts
-
-2. Change the group name in `build.gradle.kts`
+1. Replace occurrences of `project` with your `project-name`:
+   - `./README.md`
+   - `./project`
+   - `./settings.gradle.kts`
+   - `./build.gradle.kts`
+   - `SwaggerConfig.kt`
 
 ## Test suite
 
