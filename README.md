@@ -8,6 +8,8 @@ A template for Kotlin applications. To get started, update the following:
    - `./settings.gradle.kts`
    - `./build.gradle.kts`
    - `SwaggerConfig.kt`
+   - `./project/src/` 
+   - `./integration-test/src/` 
 
 ## Test suite
 
