@@ -1,11 +1,4 @@
-import org.jetbrains.dokka.gradle.DokkaTask
-
 plugins {
-    kotlin("jvm")
-    id("io.gitlab.arturbosch.detekt")
-    id("org.jlleitschuh.gradle.ktlint")
-    id("org.jetbrains.dokka")
-
     kotlin("plugin.spring")
     id("org.springframework.boot")
     id("io.spring.dependency-management")
@@ -29,8 +22,4 @@ dependencies {
 
 tasks.withType<Test> {
     useJUnitPlatform()
-}
-
-tasks.withType<DokkaTask>().configureEach {
-    outputDirectory.set(buildDir.resolve("dokka"))
 }

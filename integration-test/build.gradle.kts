@@ -1,10 +1,6 @@
 import org.springframework.boot.gradle.tasks.bundling.BootJar
 
 plugins {
-    kotlin("jvm")
-    id("io.gitlab.arturbosch.detekt")
-    id("org.jlleitschuh.gradle.ktlint")
-
     kotlin("plugin.spring")
     id("org.springframework.boot")
     id("io.spring.dependency-management")
