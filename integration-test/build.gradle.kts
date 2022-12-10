@@ -6,7 +6,8 @@ plugins {
     id("io.spring.dependency-management")
 }
 
-val cucumberVersion = "7.5.0"
+val cucumberVersion = "7.8.1"
+val testContainersVersion = "1.17.6"
 
 dependencies {
     implementation(project(":core"))
@@ -25,6 +26,10 @@ dependencies {
     testImplementation("io.cucumber:cucumber-spring:$cucumberVersion")
     testImplementation("io.cucumber:cucumber-java:$cucumberVersion")
     testImplementation("io.cucumber:cucumber-junit:$cucumberVersion")
+
+    testImplementation("org.testcontainers:testcontainers:$testContainersVersion")
+    testImplementation("org.testcontainers:junit-jupiter:$testContainersVersion")
+    testImplementation("org.testcontainers:mongodb:$testContainersVersion")
 }
 
 val jar: Jar by tasks
