@@ -3,13 +3,10 @@
 A template for Kotlin applications. To get started, update the following:
 
 1. Replace occurrences of `project` with your `project-name`:
-   - `./README.md`
-   - `./project`
    - `./settings.gradle.kts`
    - `./build.gradle.kts`
-   - `SwaggerConfig.kt`
-   - `./project/src/` 
-   - `./integration-test/src/` 
+   - `./integration-test/src/`
+   - `./core/src/`
 
 ## Test suite
 
@@ -20,7 +17,7 @@ To run the whole test suite:
 
 To run the unit tests exclusively:
 ```shell
-./gradlew :project:test 
+./gradlew :core:test
 ```
 
 To run the integration tests exclusively:
@@ -37,10 +34,10 @@ To see which tasks are available, run:
 
 To start the application, run:
 ```shell
-./gradlew :project:bootRun
+./gradlew :core:bootRun
 ```
 
-To start the dependencies for a local environment, run: 
+To start the dependencies for a local environment, run:
 ```shell
 docker compose up
 ```

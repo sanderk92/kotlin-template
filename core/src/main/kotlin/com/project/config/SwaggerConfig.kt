@@ -9,7 +9,7 @@ class SwaggerConfig {
 
     @Bean
     fun api(): GroupedOpenApi = GroupedOpenApi.builder()
-        .group("Project")
+        .group("")
         .pathsToMatch("/**")
         .build()
 }

@@ -1,5 +1,5 @@
 rootProject.name = "project"
-include("project")
+include("core")
 include("integration-test")
 
 pluginManagement {

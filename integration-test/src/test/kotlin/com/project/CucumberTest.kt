@@ -1,4 +1,4 @@
-package com.project.integrationtest
+package com.project
 
 import com.project.Application
 import io.cucumber.junit.Cucumber

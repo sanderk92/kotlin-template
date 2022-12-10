@@ -9,7 +9,7 @@ plugins {
 val cucumberVersion = "7.5.0"
 
 dependencies {
-    implementation(project(":project"))
+    implementation(project(":core"))
 
     testImplementation("org.jetbrains.kotlin:kotlin-reflect")
     testImplementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")

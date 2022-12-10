@@ -1,4 +1,4 @@
-package com.project.integrationtest.glue
+package com.project.glue
 
 import io.cucumber.java.en.Then
 
